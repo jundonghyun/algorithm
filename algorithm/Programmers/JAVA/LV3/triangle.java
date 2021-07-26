@@ -34,6 +34,6 @@ public class triangle {
             }
         }
 
-        return answer;
+        return answer; //끝
     }
 }
