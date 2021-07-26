@@ -1,4 +1,4 @@
-package BaekJoon.AlgorithmSolve.Programmers.JAVA.LV3;
+package Programmers.JAVA.LV3;
 
 import java.util.*;
 
