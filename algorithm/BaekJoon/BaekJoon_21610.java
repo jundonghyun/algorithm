@@ -1,4 +1,4 @@
-package BaekJoon.AlgorithmSolve.BaekJoon;
+package BaekJoon;
 import java.util.*;
 
 public class BaekJoon_21610 {
