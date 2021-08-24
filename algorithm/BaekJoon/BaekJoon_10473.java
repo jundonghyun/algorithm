@@ -109,5 +109,4 @@ class Edge implements Comparable<Edge>{
     public int compareTo(Edge o) {
         return Float.compare(this.time, o.time);
     }
-    
 }
