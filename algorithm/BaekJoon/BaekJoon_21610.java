@@ -50,6 +50,8 @@ public class BaekJoon_21610 {
                 sum += arr[i][j];
             }
         }
+
+        sc.close();
         
         System.out.println(sum);
     }

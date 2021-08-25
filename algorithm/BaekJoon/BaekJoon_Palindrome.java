@@ -7,6 +7,8 @@ public class BaekJoon_Palindrome {
         Scanner sc = new Scanner(System.in);
         String temp = sc.next();
         System.out.println(solution(temp));
+
+        sc.close();
     }
 
     public static int solution(String t){

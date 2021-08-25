@@ -1,6 +1,5 @@
 package Programmers.JAVA.LV4;
 
-import java.util.*;
 
 public class thief {
 
@@ -11,7 +10,6 @@ public class thief {
     }
     
     public static int solution(int[] money) {
-        int answer = 0;
         int length = money.length;
         int[] dp =new int[length-1];
         int[] dp2= new int[length];

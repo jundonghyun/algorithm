@@ -34,6 +34,8 @@ public class samsung {
             }
         }
 
+        sc.close();
+
         System.out.println(answer);
     }
 

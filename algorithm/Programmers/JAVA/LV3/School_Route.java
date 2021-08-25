@@ -15,7 +15,6 @@ public class School_Route {
     }
 
     public static int solution(int m, int n, int[][] puddles) {
-        int answer = 0;
         int[][] arr = new int[n][m];
 
         

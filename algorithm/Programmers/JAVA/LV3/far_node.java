@@ -1,6 +1,5 @@
 package Programmers.JAVA.LV3;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -13,7 +12,6 @@ public class far_node {
     }
 
     public static int solution(int n, int[][] edge) {
-        int answer = 0;
         boolean[][] arr = new boolean[n+1][n+1];
         boolean[] check = new boolean[n+1];
 

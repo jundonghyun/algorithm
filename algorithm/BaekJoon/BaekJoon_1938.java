@@ -6,8 +6,6 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 
-import java.io.*;
-import java.util.*;
 public class BaekJoon_1938 {
     static char map[][];
     static int n;

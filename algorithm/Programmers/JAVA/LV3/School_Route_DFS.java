@@ -1,6 +1,5 @@
 package Programmers.JAVA.LV3;
 
-import java.util.*;
 
 public class School_Route_DFS {
     static int[] nx = {1, 0}; //아래, 오른쪽

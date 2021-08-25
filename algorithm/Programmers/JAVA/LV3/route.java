@@ -2,7 +2,6 @@ package Programmers.JAVA.LV3;
 
 import java.util.*;
 
-import javax.xml.stream.events.StartElement;
 
 public class route {
     static List<String> list = new ArrayList<>();
