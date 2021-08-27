@@ -39,7 +39,7 @@ public class BaekJoon_1238 {
             }
         }
 
-        start_djisktra(1, n, point);
+        start_djisktra(n, point);
         finsih_djisktra(point);
 
         int result = go[1] + back[1];
@@ -51,7 +51,7 @@ public class BaekJoon_1238 {
         System.out.println(result);
     }
 
-    static void start_djisktra(int start, int finish, int point){
+    static void start_djisktra(int finish, int point){
         for(int i = 1; i <= finish; i++){ //1부터 끝까지 정해진 위치(point)까지의 최단거리를
             //각각 계산해서 go배열에 넣어줌
             //ex) 1->2, 2->2, 3->2, 4->2
@@ -75,11 +75,11 @@ public class BaekJoon_1238 {
                 }
             }
             Arrays.fill(check, false); //방문배열 초기화
-            go[i] = distance[point]; //
+            go[i] = distance[point]; //각 출발지로부터 목적지까지의 최단거리를 go배열에 넣음
         }
     }
 
-    static void finsih_djisktra(int finish){
+    static void finsih_djisktra(int finish){ //목적지부터 각 출발지로부터의 최단거리(다익스트라 알고리즘 그대로 사용하면됨)
         Arrays.fill(back, Integer.MAX_VALUE);
         PriorityQueue<Node1> q = new PriorityQueue<>();
 
