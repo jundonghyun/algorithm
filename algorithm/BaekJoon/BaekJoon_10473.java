@@ -12,6 +12,9 @@ public class BaekJoon_10473{
     static ArrayList<Edge> adjList[];
     static boolean check[];
     static float times[];
+    
+    @SuppressWarnings("unchecked")
+
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());

@@ -8,6 +8,8 @@ public class BaekJoon_1916 {
     static List<node1>[] list;
     static boolean check[];
     static int[] distance;
+    
+    @SuppressWarnings("unchecked")
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

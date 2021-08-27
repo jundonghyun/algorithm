@@ -9,6 +9,9 @@ public class BaekJoon_1238 {
     static int[] back;
     static int[] distance;
     static boolean[] check;
+
+    @SuppressWarnings("unchecked")
+
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());

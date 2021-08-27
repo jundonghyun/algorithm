@@ -10,6 +10,7 @@ public class BaekJoon_1753 {
     static boolean[] check;
     static int[] distance;
     static int start;
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
