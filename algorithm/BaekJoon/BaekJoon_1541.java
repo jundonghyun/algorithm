@@ -1,18 +1,16 @@
 package BaekJoon;
 
 import java.io.*;
-import java.util.*;
-import javax.script.*;
 
 public class BaekJoon_1541 {
 
-    public static void main(String[] args) throws ScriptException, IOException {
+    public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         //StringTokenizer st = new StringTokenizer(br.readLine());
 
         int sum = Integer.MAX_VALUE; // 초기 상태 여부 확인을 위한 값으로 설정
-        String[] subtraction = br.readLine().split("-");
+        String[] subtraction = br.readLine().split("-"); //'-'들어오면 앞부분 자름
 
         for (int i = 0; i < subtraction.length; i++) {
             int temp = 0;
@@ -26,12 +24,14 @@ public class BaekJoon_1541 {
             }
 
             // 첫 번째토큰인 경우 temp값이 첫 번째 수가 됨
-            if (sum == Integer.MAX_VALUE) {
+            if (sum == Integer.MAX_VALUE) { //초기에만 들어갈수있음 temp가 sum이 되면 MAX_VALUE보다 작기때문
                 sum = temp;
             } else {
                 sum -= temp;
             }
         }
+
+        System.out.println(sum);
     }
 
 }
