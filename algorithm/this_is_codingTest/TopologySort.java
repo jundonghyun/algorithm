@@ -3,11 +3,11 @@ import java.util.*;
 
 public class TopologySort {
 
-    // 노드의 개수(V)와 간선의 개수(E)
-    // 노드의 개수는 최대 100,000개라고 가정
+    // �끂�뱶�쓽 媛쒖닔(V)��� 媛꾩꽑�쓽 媛쒖닔(E)
+    // �끂�뱶�쓽 媛쒖닔�뒗 理쒕�� 100,000媛쒕씪怨� 媛��젙
     public static int v, e;
-    public static int[] indegree; // 부모 테이블 초기화하기
-    // 각 노드에 연결된 간선 정보를 담기 위한 연결 리스트 초기화
+    public static int[] indegree; // 遺�紐� �뀒�씠釉� 珥덇린�솕�븯湲�
+    // 媛� �끂�뱶�뿉 �뿰寃곕맂 媛꾩꽑 �젙蹂대�� �떞湲� �쐞�븳 �뿰寃� 由ъ뒪�듃 珥덇린�솕
     public static List<edge>[] graph;
     public static List<Integer> result = new ArrayList<>();
 
@@ -24,7 +24,7 @@ public class TopologySort {
             graph[i] = new ArrayList<>();
         }
 
-        // 방향 그래프의 모든 간선 정보를 입력 받기
+        // 諛⑺뼢 洹몃옒�봽�쓽 紐⑤뱺 媛꾩꽑 �젙蹂대�� �엯�젰 諛쏄린
         for (int i = 1; i < e; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
