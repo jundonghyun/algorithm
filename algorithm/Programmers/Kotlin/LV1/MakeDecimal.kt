@@ -1,5 +1,3 @@
-
-
 public class MakeDecimal {
     var result: Int = 0
     var temp: Int = 0
