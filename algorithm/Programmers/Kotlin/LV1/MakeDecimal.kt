@@ -57,7 +57,6 @@ public class MakeDecimal {
     }
 
 }
-
 fun main(){
     var t = MakeDecimal()
 
